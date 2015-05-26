@@ -1,43 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
+#################
+## Basic ignores
+#################
 *.lnk
+*.wz
+*.zip
+*.7z
 
-# =========================
-# Operating System Files
-# =========================
+#################
+## Unreal Engine 4
+#################
+*Binaries/
+*DerivedDataCache/
+*Intermediate/
+*Saved/
+*.suo
+*.sdf
 
-# OSX
-# =========================
+#################
+## Unity
+#################
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Unity .gitignore file.
+*.dwlt
+*.dll
+*.mdb
+*.csproj
+*.sln
+*.userprefs
+*.pidb
+*.DS_Store
+#*Temp/
+#*Build/
+#*Builds/
+#*obj/
+*Library/
+Thumbs.db
+*.suo
